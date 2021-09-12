@@ -7,4 +7,4 @@ This repository consists in different folders that will contain different inform
  - **FI** - Results from the feature importance study
  - **Src** - Src folder that is the result of modifing for our study the DeepLatentMicrobiome package
 
-*Warning*: The content of folder could differ temporarily because of updates in the files to provide easier understanging to the reader or compacting scripts to make easier their execution
+*Warning*: The content of the folders could differ temporarily because of updates in the files to provide easier understanging to the reader or compacting scripts to make easier their execution
