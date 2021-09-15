@@ -1,4 +1,12 @@
 Explanation of scripts and folders:
  - **GridEncoder**: Scripts used to obtain the models for each possible value of hyperparameters in the encoder NN
  - **GridDecoder**: Scripts used to obtain the models for each possible value of hyperparameters in the decoder NN
- - 
+ - **AdHocDietsPredictions.ipynb**: Notebook in which we obtain the OTUs prediction for the keto, vegetarian and mediterrean diets that we created
+ - **BestModelsFood.ipynb**: Script to obtain predictions, error per OTU and FI of best models with food information for every taxonomical rank
+ - **BestModelsNutrients.ipynb**: Script to obtain predictions, error per OTU and FI of best models with nutrient information for every taxonomical rank
+ - **CompleteBlanksInTaxonomyDictionary.r**: Script that fills some blanks in the complete name of OTUs, if possible
+ - **FeatureSelectionFood.ipynb**: Script to perform feature reduction in food metadata
+ - **FeatureSelectionNutrients.ipynb**: Script to perform feature reduction in nutrient metadata
+ - **PreProcessingMetadata**: Script to remove extra information columns of the dataset and filter samples that did not have both metadata and microbiota data associated
+ - **Transformation20CommonOTUs.ipynb**: Script to find common OTUs in Johnson and Bushman datasets
+ - **script_error_per_OTU_mod.r**: Modification of script_error_per_OTU.r (in Src folder) to obtain the error per OTU of the predictions in models
